@@ -1,0 +1,32 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "endeavouros_small",
+        "color": {
+            "1": "35",
+            "2": "magenta"
+        }
+    },
+    "display": {
+        "separator": " > ",
+        "color": "red"
+    },
+    "modules": [
+        {"type": "custom", "format": "\u001b[1;33mSYSTEM\u001b[0m"},
+        {"type": "os", "key": " OS", "keyColor": "yellow"},
+        {"type": "uptime", "key": " Age", "keyColor": "yellow"},
+        {"type": "packages", "key": " Pkgs", "keyColor": "yellow"},
+        {"type": "shell", "key": " Shell", "keyColor": "yellow"},
+        {"type": "custom", "format": "\u001b[1;33mDESKTOP\u001b[0m"},
+        {"type": "de", "key": " DE", "keyColor": "yellow"},
+        {"type": "wm", "key": " WM", "keyColor": "yellow"},
+        {"type": "custom", "format": "\u001b[1;33mHARDWARE\u001b[0m"},
+        {"type": "gpu", "key": " GPU", "keyColor": "yellow"},
+        {"type": "cpu", "key": " CPU", "keyColor": "yellow"},
+        {"type": "memory", "key": " RAM", "keyColor": "yellow"},
+        {"type": "disk", "key": " Disk", "keyColor": "yellow"},
+        {"type": "battery", "key": " Battery", "keyColor": "yellow"},
+        {"type": "custom", "format": "\u001b[1;33mUSAGE\u001b[0m"},
+        {"type": "uptime", "key": " Uptime", "keyColor": "yellow"}
+     ]
+}
