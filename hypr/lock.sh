@@ -1,0 +1,35 @@
+#!/bin/bash
+
+i3lock \
+  --nofork \
+  --image=/home/paulblart/Pictures/wallpapers/calvin-hobbes.png \
+  --scale \
+  --clock \
+  --force-clock \
+  --time-str="%H:%M" \
+  --date-str="%A, %B %d" \
+  --time-font="Calvin and Hobbes" \
+  --date-font="Calvin and Hobbes" \
+  --time-size=80 \
+  --date-size=30 \
+  --time-color=2c2a24ff \
+  --date-color=2c2a24ff \
+  --inside-color=00000000 \
+  --ring-color=d3bcfdff \
+  --keyhl-color=f0b7c5ff \
+  --bshl-color=cf6679ff \
+  --separator-color=00000000 \
+  --insidever-color=d3bcfd44 \
+  --insidewrong-color=cf667944 \
+  --ringver-color=d3bcfdff \
+  --ringwrong-color=cf6679ff \
+  --verif-text="..." \
+  --wrong-text="nope!" \
+  --verif-font="Calvin and Hobbes" \
+  --wrong-font="Calvin and Hobbes" \
+  --verif-color=d3bcfdff \
+  --wrong-color=cf6679ff \
+  --pass-media-keys \
+  --pass-screen-keys \
+  --time-pos="ix+300:iy-50" \
+  --date-pos="ix+300:iy-10"
