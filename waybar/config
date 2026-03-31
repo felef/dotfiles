@@ -1,4 +1,6 @@
 [{
+"layer": "top",
+"output": "eDP-1",
     "height": 40,
     "spacing": 5, 
 
@@ -242,11 +244,6 @@
       "on-click": "swaync-client --toggle-panel",
       "interval": 0
     },
-
-
-
-
-
 
     "network": {
         "interface": "wlan0",

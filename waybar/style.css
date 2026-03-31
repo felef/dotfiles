@@ -1,3 +1,7 @@
+* {
+    background-color: transparent;
+}
+
 @define-color background #151218;
 @define-color second-background #211f24;
 @define-color text #e7e0e8;

@@ -10,9 +10,6 @@ exec-once=sleep 2 && hyprctl hyprpaper wallpaper "eDP-1,/home/paulblart/Download
 exec-once=hypridle
 bindl=,switch:on:Lid Switch,exec,hyprlock
 
-layerrule = blur on, match:namespace waybar
-layerrule = ignore_alpha 0.5, match:namespace waybar
-
 general {
     gaps_in = 2
     gaps_out = 4
@@ -72,8 +69,6 @@ bind=SUPER,Return,exec,kitty
 bind=SUPER,Q,killactive
 bind=SUPER,M,exit
 bind=SUPER,SPACE,exec,rofi -show drun
-bind=SUPER,E,exec,nemo
-bind=SUPER,B,exec,librewolf
 bind=SUPER,1,workspace,1
 bind=SUPER,2,workspace,2
 bind=SUPER,3,workspace,3
